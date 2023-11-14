@@ -11,10 +11,10 @@ Create a Binary Search Tree class: Next, create a Binary Search Tree class. This
 In method to create a create sorted linked list which takes in the unsorted list:
 Instantiate the Binary Search Tree. The first element from your unsorted list will be the root node of the BST.
 
-Add Nodes to the Binary Search Tree: Iterate over the rest of the unsorted list, adding each number as a node in your BST. Remember, in a BST, nodes to the left are smaller than the root and nodes to the right are larger.
-Traverse the Binary Search Tree: Now that your BST is complete and sorted, perform an in-order traversal of the BST. This will return your numbers in ascending order.
+Add Nodes to the Binary Search Tree: Iterate over the rest of the unsorted list, adding each number as a node in your BST. In a BST, nodes to the left are smaller than the root and nodes to the right are larger.
+Traverse the Binary Search Tree: Now that the BST is complete and sorted, perform an in-order traversal of the BST. This will return numbers in ascending order.
 
-After you traverse the BST and return your sorted nodes, add each value to a new instance of your Linked List class. This will result in a linked list that is sorted in ascending order.
+After traversing the BST and return your sorted nodes, add each value to a new instance of the Linked List class. This will result in a linked list that is sorted in ascending order.
 
 Display the Sorted Linked List: Finally, display your sorted linked list to verify that everything is working correctly.
 
